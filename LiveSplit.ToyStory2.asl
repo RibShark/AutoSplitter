@@ -6,7 +6,6 @@ state("Project64")
 	byte fBoss3Health : "Project64.exe", 0x107AD8, 0x2128;
 	short buzzXPos : "Project64.exe", 0x107AD8, 0xbb078;
 	byte16 tokenCount : "Project64.exe", 0x107AD8, 0x1e2dd0;
-	byte what : this is a test;
 }
  
 start
