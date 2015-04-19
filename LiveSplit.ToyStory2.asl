@@ -7,7 +7,6 @@ state("Project64")
 	short buzzXPos : "Project64.exe", 0x107AD8, 0xbb078;
 	byte16 tokenCount : "Project64.exe", 0x107AD8, 0x1e2dd0;
 }
-check
  
 start
 {
