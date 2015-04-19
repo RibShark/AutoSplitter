@@ -1,5 +1,5 @@
 state("Project64")
-{
+{test
 	int level1LoadScreen : "Project64.exe", 0x107AD8, 0x3480;
 	byte fBoss1Health : "Project64.exe", 0x107AD8, 0x2120;
 	byte fBoss2Health : "Project64.exe", 0x107AD8, 0x2124;
