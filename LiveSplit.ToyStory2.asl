@@ -1,11 +1,12 @@
 state("Project64")
-{test
+{
 	int level1LoadScreen : "Project64.exe", 0x107AD8, 0x3480;
 	byte fBoss1Health : "Project64.exe", 0x107AD8, 0x2120;
 	byte fBoss2Health : "Project64.exe", 0x107AD8, 0x2124;
 	byte fBoss3Health : "Project64.exe", 0x107AD8, 0x2128;
 	short buzzXPos : "Project64.exe", 0x107AD8, 0xbb078;
 	byte16 tokenCount : "Project64.exe", 0x107AD8, 0x1e2dd0;
+	byte what : this is a test;
 }
  
 start
